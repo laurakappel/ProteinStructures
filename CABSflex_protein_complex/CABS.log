@@ -1,0 +1,24 @@
+##############################################################################################################
+[INFO]       Logger:   Verbosity set to: 3 - [OUT FILES]                                           (00:00:03)
+[WARNING]    JOB:      /net/pupil1/home/projects/22117_proteins/projects/group8/naccess_receptor   
+                       already exists. Output data will be overwritten.                            (00:00:03)
+[INFO]       Protein:  Loading complex_jo.pdb as input protein                                     (00:00:03)
+[OUT FILES]  Logger:   Saving DSSP output to /net/pupil1/home/projects/22117_proteins/projects/gro 
+                       up8/naccess_receptor/output_data/DSSP_output_complex_jo.txt                 (00:00:03)
+[WARNING]    Protein:  Could not read weights file: gauss                                          (00:00:04)
+[WARNING]    Protein:  Using default weights(1.0) for all atoms.                                   (00:00:04)
+[INFO]       CABS:     Setting up CABS simulation.                                                 (00:00:04)
+[WARNING]    CABS:     <stdin>:1879:72:  Warning: Fortran 2018 deleted feature: DO termination     
+                       statement which is not END DO or CONTINUE with label 7000 at (1)            (00:00:10)
+[WARNING]    CABS:     Note: The following floating-point exceptions are signalling: IEEE_DENORMAL 
+                       Note: The following floating-point exceptions are signalling: IEEE_DENORMAL (00:21:45)
+[INFO]       JOB:      Trajectories loaded successfully                                            (00:21:47)
+[INFO]       JOB:      Input loaded as reference.                                                  (00:21:47)
+[OUT FILES]  JOB:      Saving pdb files to /net/pupil1/home/projects/22117_proteins/projects/group 
+                       8/naccess_receptor/output_pdbs                                              (00:21:50)
+[OUT FILES]  JOB:      Saving replicas...                                                          (00:21:50)
+[OUT FILES]  JOB:      Saving clusters...                                                          (00:22:01)
+[OUT FILES]  JOB:      Saving starting structure...                                                (00:22:11)
+[OUT FILES]  JOB:      Saving final models (in AA representation)                                  (00:22:11)
+[INFO]       JOB:      RMSD successfully saved                                                     (01:00:27)
+[INFO]       JOB:      Simulation completed successfully                                           (01:00:35)

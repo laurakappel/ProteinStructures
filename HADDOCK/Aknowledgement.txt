@@ -1,0 +1,18 @@
+Docking with the HADDOCK web interface:
+https://wenmr.science.uu.nl/haddock2.4/
+
+R.V. Honorato, P.I. Koukos, B. Jimenez-Garcia, A. Tsaregorodtsev, M. Verlato, A. Giachetti, A. Rosato and A.M.J.J. Bonvin (2021).
+"Structural biology in the clouds: The WeNMR-EOSC Ecosystem." Frontiers Mol. Biosci., 8, fmolb.2021.729513.
+
+and 
+
+G.C.P van Zundert, J.P.G.L.M. Rodrigues, M. Trellet, C. Schmitz, P.L. Kastritis, E. Karaca, A.S.J. Melquiond, 
+M. van Dijk, S.J. de Vries and A.M.J.J. Bonvin (2016). 
+"The HADDOCK2.2 webserver: User-friendly integrative modeling of biomolecular complexes." J. Mol. Biol., 428, 720-725 (2015).
+
+The FP7 WeNMR (project\# 261572), H2020 West-Life (project\# 675858), the EOSC-hub (project\# 777536) 
+and the EGI-ACE (project\# 101017567) European e-Infrastructure projects are acknowledged for the use of their web portals, 
+which make use of the EGI infrastructure with the dedicated support of CESNET-MCC, INFN-LNL-2, NCG-INGRID-PT, TW-NCHC, CESGA, 
+IFCA-LCG2, UA-BITP, TR-FC1-ULAKBIM, CSTCLOUD-EGI, IN2P3-CPPM, CIRMMP, SURFsara and NIKHEF, and the additional support of the
+national GRID Initiatives of Belgium, France, Italy, Germany, the Netherlands, Poland, Portugal, Spain, UK, Taiwan and the US 
+Open Science Grid.

@@ -1,0 +1,7 @@
+##############################################################################################################
+[INFO]       Logger:   Verbosity set to: 3 - [OUT FILES]                                           (00:00:03)
+[WARNING]    JOB:      /net/pupil1/home/projects/22117_proteins/projects/group8/CABSflex/output_da 
+                       ta already exists. Output data will be overwritten.                         (00:00:03)
+[INFO]       Protein:  Loading 2B8U_noH2O.pdb as input protein                                     (00:00:03)
+[CRITICAL]   PDB:      Invalid PDB code: 2B8U_noH2O.pdb: 404 Client Error: Not Found for url:      
+                       http://files.rcsb.org/download/2b8u_noh2o.pdb.pdb.gz                        (00:00:03)

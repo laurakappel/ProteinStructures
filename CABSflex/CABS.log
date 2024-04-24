@@ -1,0 +1,34 @@
+##############################################################################################################
+[INFO]       Logger:   Verbosity set to: 3 - [OUT FILES]                                           (00:00:03)
+[WARNING]    JOB:      /net/pupil1/home/projects/22117_proteins/projects/group8/CABSflex already   
+                       exists. Output data will be overwritten.                                    (00:00:03)
+[INFO]       Protein:  Loading 2B8U_noH2O.pdb as input protein                                     (00:00:03)
+[CRITICAL]   PDB:      Invalid PDB code: 2B8U_noH2O.pdb: 404 Client Error: Not Found for url:      
+                       http://files.rcsb.org/download/2b8u_noh2o.pdb.pdb.gz                        (00:00:03)
+##############################################################################################################
+[INFO]       Logger:   Verbosity set to: 3 - [OUT FILES]                                           (00:00:03)
+[WARNING]    JOB:      /net/pupil1/home/projects/22117_proteins/projects/group8/CABSflex already   
+                       exists. Output data will be overwritten.                                    (00:00:03)
+[INFO]       Protein:  Loading 2B8U as input protein                                               (00:00:03)
+[WARNING]    PDB:      Unknown residue SO4 at 1001:A in 2B8U                                       (00:00:03)
+[WARNING]    PDB:      Unknown residue SO4 at 1002:A in 2B8U                                       (00:00:03)
+[WARNING]    PDB:      Unknown residue SO4 at 1003:A in 2B8U                                       (00:00:03)
+[OUT FILES]  Logger:   Saving DSSP output to /net/pupil1/home/projects/22117_proteins/projects/gro 
+                       up8/CABSflex/output_data/DSSP_output_2B8U.txt                               (00:00:03)
+[WARNING]    Protein:  Could not read weights file: gauss                                          (00:00:03)
+[WARNING]    Protein:  Using default weights(1.0) for all atoms.                                   (00:00:03)
+[INFO]       CABS:     Setting up CABS simulation.                                                 (00:00:03)
+[WARNING]    CABS:     <stdin>:1879:72:  Warning: Fortran 2018 deleted feature: DO termination     
+                       statement which is not END DO or CONTINUE with label 7000 at (1)            (00:00:06)
+[WARNING]    CABS:     Note: The following floating-point exceptions are signalling: IEEE_DENORMAL 
+                       Note: The following floating-point exceptions are signalling: IEEE_DENORMAL (00:02:10)
+[INFO]       JOB:      Trajectories loaded successfully                                            (00:02:10)
+[INFO]       JOB:      Input loaded as reference.                                                  (00:02:10)
+[OUT FILES]  JOB:      Saving pdb files to /net/pupil1/home/projects/22117_proteins/projects/group 
+                       8/CABSflex/output_pdbs                                                      (00:02:12)
+[OUT FILES]  JOB:      Saving replicas...                                                          (00:02:12)
+[OUT FILES]  JOB:      Saving clusters...                                                          (00:02:15)
+[OUT FILES]  JOB:      Saving starting structure...                                                (00:02:16)
+[OUT FILES]  JOB:      Saving final models (in AA representation)                                  (00:02:16)
+[INFO]       JOB:      RMSD successfully saved                                                     (00:07:42)
+[INFO]       JOB:      Simulation completed successfully                                           (00:07:44)

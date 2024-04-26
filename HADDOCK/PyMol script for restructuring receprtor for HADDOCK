@@ -1,0 +1,8 @@
+PyMOL>fetch 3BPN
+PyMOL>split_chains
+PyMOL>cmd.select("chainB", "chain B") PyMOL>cmd.select("chainC", "chain C") 
+PyMOL>residues_chain_b = [int(i.resi) for i in cmd.get_model("chain B").atom] # Get list of all residues in chain B 
+PyMOL>max_res_number_b = max(residues_chain_b)  # Find maximum residue number in chain B
+PyMOL>cmd.alter("chain C", "resi = str(int(resi) + {} + 1)".format(max_res_number_b))
+PyMOL>cmd.create("new_structure", "chain B or chain C")
+PyMOL>cmd.save("receptor_modified.pdb", "new_structure")

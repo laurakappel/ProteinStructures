@@ -1,0 +1,25 @@
+MutateX with 10 CABS-flex models was run with the following commands:
+nohup mutatex ensemble_model.pdb -p 2 -m mutation_list.txt -x /home/ctools/foldx5_2024/foldx -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -q poslist.txt -L -l -v -C deep -B -I interface_runfile_template.txt & -a --multiple-models 
+
+CSV file generation
+/home/ctools/anaconda3_2021.11/bin/ddg2excel -p ensemble_model.pdb -l mutation_list.txt -q poslist.txt -d results/interface_ddgs/final_averages/A-B/ -F csv 
+
+/home/ctools/anaconda3_2021.11/bin/ddg2excel -p ensemble_model.pdb -l mutation_list.txt -q poslist.txt -d results/interface_ddgs/final_averages/A-C/ -F csv 
+
+ 
+
+DENISITY plots generation:
+
+/home/ctools/anaconda3_2021.11/bin/ddg2density -p ensemble_model.pdb -l mutation_list.txt -d results/interface_ddgs/final_averages/A-B/  -q poslist.txt 
+
+/home/ctools/anaconda3_2021.11/bin/ddg2density -p ensemble_model.pdb -l mutation_list.txt -d results/interface_ddgs/final_averages/A-C/  -q poslist.txt 
+
+ 
+
+ 
+
+HEATMAP generation: 
+
+/home/ctools/anaconda3_2021.11/bin/ddg2heatmap -p ensemble_model.pdb -l mutation_list.txt -q poslist.txt -d results/interface_ddgs/final_averages/A-B/ -q poslist.txt -n -3 -x 5 
+
+/home/ctools/anaconda3_2021.11/bin/ddg2heatmap -p ensemble_model.pdb -l mutation_list.txt -q poslist.txt -d results/interface_ddgs/final_averages/A-C/ -q poslist.txt -n -3 -x 5 
